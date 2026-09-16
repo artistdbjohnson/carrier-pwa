@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="theme-color" content="#C8102E"/>
+  <title>Get a Quote | Carrier</title>
+  <link rel="manifest" href="/manifest.webmanifest"/>
+  <link rel="stylesheet" href="/styles.css"/>
+</head>
+<body>
+  <nav class="nav" style="position:relative">
+    <a class="brand" href="/">Carrier</a>
+    <div class="links">
+      <a href="/">Home</a>
+      <a href="/products.html">Products</a>
+      <a href="/service.html">Service</a>
+      <a href="/quote.html">Get a Quote</a>
+    </div>
+  </nav>
+  <main class="wrap">
+    <div class="kicker">Find a local expert</div>
+    <h1>Request a quote</h1>
+    <p>Mock checkout for this design study. No real payment is processed.</p>
+    <form class="form" id="quote">
+      <input required name="name" placeholder="Full name"/>
+      <input required type="email" name="email" placeholder="Email"/>
+      <input required name="zip" placeholder="ZIP code"/>
+      <select name="need">
+        <option>Infinity® 20 Heat Pump</option>
+        <option>Comfort™ 96 Gas Furnace</option>
+        <option>HVAC Maintenance</option>
+        <option>Ventilators</option>
+      </select>
+      <button class="btn btn-dark" type="submit">Submit Payment</button>
+    </form>
+    <div class="ok" id="ok">Request received. A local expert will follow up. This is a mock confirmation.</div>
+  </main>
+  <footer>Independent design study, not affiliated with Carrier. <a href="mailto:study@example.com">study@example.com</a></footer>
+  <script src="/app.js"></script>
+</body>
+</html>
